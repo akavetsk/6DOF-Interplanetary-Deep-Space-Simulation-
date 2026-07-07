@@ -276,7 +276,8 @@ xlabel('Time (s)'), ylabel('Angular Velocity rad/s');
 title('Angular Velocity in X-Direction')
 ```
 
-![figure_1.png](./sixdof_media/figure_1.png)
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/a620a4e0-5090-455b-83b4-dd4259825719" />
+
 
 ```matlab
 
@@ -287,7 +288,8 @@ xlabel('Time (s)'), ylabel('Angular Velocity rad/s');
 title('Angular Velocity in Y-Direction')
 ```
 
-![figure_2.png](./sixdof_media/figure_2.png)
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/6f2548bd-eaa0-4750-94c9-c91d165a651d" />
+
 
 ```matlab
 
@@ -298,7 +300,8 @@ xlabel('Time (s)'), ylabel('Angular Velocity rad/s');
 title('Angular Velocity in Z-Direction')
 ```
 
-![figure_3.png](./sixdof_media/figure_3.png)
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/e3f0bb2f-66ca-4364-b81d-858482285d48" />
+
 
 ```matlab
 
@@ -309,4 +312,5 @@ xlabel('Time (s)'), ylabel('Quaternion'); ylim([0.99,1.01])
 title('Normalization of Quaternion vs Time')
 ```
 
-![figure_4.png](./sixdof_media/figure_4.png)
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/3de5666d-0664-42dd-be52-b9b54b604aa1" />
+
