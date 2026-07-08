@@ -245,7 +245,7 @@ title('Angular Velocity in Z-Direction')
 
 <img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/298caf72-7962-4f5c-a0c4-542099e064cc" />
 
-
+Based on the graphs. 
 
 ```matlab
 
