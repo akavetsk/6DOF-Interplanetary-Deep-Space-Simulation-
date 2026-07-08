@@ -183,6 +183,10 @@ params.jup_200 = jup_200;
 busInfo = Simulink.Bus.createObject(params);
 busInfo.busName;
 ```
+Below is my Simulink model that I created. It is a double integrator model that calculates both rotation and translation of the spacecraft over a 30 min interval over the 400 day transfer. I started the simulation at a segment at 200 days. 
+
+The Current Position function at the top left of the Simulink calculates the Spacecraft to Sun distance needed for the PD Control Loop, which is a function defined in the rotation function block. 
+
 <img width="2968" height="1422" alt="image" src="https://github.com/user-attachments/assets/866de0a2-e95a-4a83-9c61-79ef330de381" />
 
 
