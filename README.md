@@ -170,42 +170,6 @@ legend(["Earth Orbit", "Didymos Orbit", "Transfer Trajectory", ...
 
 <img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/782754bd-2225-4336-9391-631c5c14a35f" />
 
-
-```matlab
-% Comparing Results 
-v2_true = xH(end,4:6)'
-```
-
-```matlabTextOutput
-v2_true = 3x1
-  -18.8821
-  -15.5070
-   -0.2721
-
-```
-
-```matlab
-v1;
-v2;
-
-% Calculate the error in velocity
-error_v1 = norm(v1_true - v1);
-error_v2 = norm(v2_true - v2);
-fprintf('Error in v1: %g km/s\n', error_v1);
-```
-
-```matlabTextOutput
-Error in v1: 0.000636303 km/s
-```
-
-```matlab
-fprintf('Error in v2: %g km/s\n', error_v2);
-```
-
-```matlabTextOutput
-Error in v2: 0.000380952 km/s
-```
-
 ```matlab
 
 % Deep Space Simulation 6DOF
