@@ -181,12 +181,9 @@ params.jup_200 = jup_200;
 
 % For Simulink 
 busInfo = Simulink.Bus.createObject(params);
-busInfo.busName
+busInfo.busName;
 ```
 
-```matlabTextOutput
-ans = 'slBus2'
-```
 
 ```matlab
 
