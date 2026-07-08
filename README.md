@@ -168,7 +168,8 @@ legend(["Earth Orbit", "Didymos Orbit", "Transfer Trajectory", ...
     [0.6472 0.0021 0.3063, 0.1959])
 ```
 
-![figure_0.png](./sixdof_media/figure_0.png)
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/782754bd-2225-4336-9391-631c5c14a35f" />
+
 
 ```matlab
 % Comparing Results 
@@ -276,7 +277,8 @@ xlabel('Time (s)'), ylabel('Angular Velocity rad/s');
 title('Angular Velocity in X-Direction')
 ```
 
-<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/a620a4e0-5090-455b-83b4-dd4259825719" />
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/647f11f8-a2e8-4832-96d1-e3be83d0f463" />
+
 
 
 ```matlab
@@ -288,7 +290,8 @@ xlabel('Time (s)'), ylabel('Angular Velocity rad/s');
 title('Angular Velocity in Y-Direction')
 ```
 
-<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/6f2548bd-eaa0-4750-94c9-c91d165a651d" />
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/06205a47-f3d2-47f6-82b3-719df9cd640f" />
+
 
 
 ```matlab
@@ -300,7 +303,8 @@ xlabel('Time (s)'), ylabel('Angular Velocity rad/s');
 title('Angular Velocity in Z-Direction')
 ```
 
-<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/e3f0bb2f-66ca-4364-b81d-858482285d48" />
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/298caf72-7962-4f5c-a0c4-542099e064cc" />
+
 
 
 ```matlab
@@ -312,5 +316,5 @@ xlabel('Time (s)'), ylabel('Quaternion'); ylim([0.99,1.01])
 title('Normalization of Quaternion vs Time')
 ```
 
-<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/3de5666d-0664-42dd-be52-b9b54b604aa1" />
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/5ef953df-c038-443d-8605-73be5255230f" />
 
