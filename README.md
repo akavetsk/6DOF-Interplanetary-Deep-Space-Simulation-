@@ -183,6 +183,7 @@ params.jup_200 = jup_200;
 busInfo = Simulink.Bus.createObject(params);
 busInfo.busName;
 ```
+<img width="2968" height="1422" alt="image" src="https://github.com/user-attachments/assets/866de0a2-e95a-4a83-9c61-79ef330de381" />
 
 
 ```matlab
