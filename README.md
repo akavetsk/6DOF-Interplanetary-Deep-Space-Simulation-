@@ -195,32 +195,6 @@ simOut = sim('pdcontroller');
 r_sim = out.rsim; 
 v_sim = out.vsim;
 t_out = out.tout; 
-r_final = r_sim(:,end)
-```
-
-```matlabTextOutput
-r_final = 3x1
-1.0e+08 *
-
-    2.0059
-    0.6930
-   -0.0074
-
-```
-
-```matlab
-v_final = r_sim(:,end)
-```
-
-```matlabTextOutput
-v_final = 3x1
-1.0e+08 *
-
-    2.0059
-    0.6930
-   -0.0074
-
-```
 
 ```matlab
 % Extract Angular Velocity
