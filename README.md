@@ -243,7 +243,7 @@ xlabel('Time (s)'), ylabel('Angular Velocity rad/s');
 title('Angular Velocity in Z-Direction')
 ```
 
-<img width="1120" height="674" alt="Screenshot 2026-07-08 at 11 31 42 AM" src="https://github.com/user-attachments/assets/c1e53021-a65f-4489-9466-8f64b6913ac1" />
+<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/7f5b66a9-c4c9-4d50-853a-2c9998ccc0e6" />
 
 
 Based on the graphs, the angular velocity starts from rest, and starts to align the solar panels with the Sun. In all directions, the angular velocity reaches 0 rad/s 
