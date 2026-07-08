@@ -185,7 +185,7 @@ busInfo.busName;
 ```
 Below is my Simulink model that I created. It is a double integrator model that calculates both rotation and translation of the spacecraft over a 30 min interval over the 400 day transfer. I started the simulation at a segment at 200 days. 
 
-The Current Position function at the top left of the Simulink calculates the Spacecraft to Sun distance needed for the PD Control Loop, which is a function defined in the rotation function block. 
+The Current Position function at the top left of the Simulink model calculates the spacecraft to Sun distance needed for the PD Control Loop, which is a function defined in the rotation function block. 
 
 <img width="2968" height="1422" alt="image" src="https://github.com/user-attachments/assets/866de0a2-e95a-4a83-9c61-79ef330de381" />
 
@@ -243,9 +243,11 @@ xlabel('Time (s)'), ylabel('Angular Velocity rad/s');
 title('Angular Velocity in Z-Direction')
 ```
 
-<img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/298caf72-7962-4f5c-a0c4-542099e064cc" />
+<img width="1120" height="674" alt="Screenshot 2026-07-08 at 11 31 42 AM" src="https://github.com/user-attachments/assets/c1e53021-a65f-4489-9466-8f64b6913ac1" />
 
-Based on the graphs. 
+
+Based on the graphs, the angular velocity starts from rest, and starts to align the solar panels with the Sun. In all directions, the angular velocity reaches 0 rad/s 
+and the tumbling stops due to PD Controller that is implemented. 
 
 ```matlab
 
@@ -258,3 +260,4 @@ title('Normalization of Quaternion vs Time')
 
 <img width="1120" height="674" alt="image" src="https://github.com/user-attachments/assets/5ef953df-c038-443d-8605-73be5255230f" />
 
+The quaternion norm remains constant at 1 as it moving through space in the 30 min interval. Validating that it is constant ensures that the simulator is working correctly and quaternion is not broken. 
